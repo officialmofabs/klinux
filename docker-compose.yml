@@ -1,5 +1,10 @@
-version: '3'
+version: '3.3'
 
 services:
   kali:
-    build: .
+    container_name: kali
+    build:
+      context: .
+      dockerfile: kali.Dockerfile
+    volumes:
+      - "./tmp:/tmp"
