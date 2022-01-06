@@ -1,14 +1,14 @@
 # docker-compose-kali-linux
-Just a docker setup for running [kali linux][1]{:target="_blank"}. 
+Just a docker setup for running [kali linux][1]. 
 
-You can visit the kali linux official [Docker Hub][2]{:target="_blank"}.
+You can visit the kali linux official [Docker Hub][2].
 
 ```bash
 $ docker-compose up --build
 $ docker-compose run kali bash
 ```
 
-Next steps, [install needed metapackages][3]{:target="_blank"} example with **kali-linux-headless**:
+Next steps, [install needed metapackages][3] example with **kali-linux-headless**:
 
 ```bash
 ┌──(root💀ce74266505e6)-[/]
@@ -43,12 +43,12 @@ docker run -it kali-test bash
 ```
 
 ## Links 
-- [Kali Linux Website][1]{:target="_blank"}
-- [Kali Linux Docker Hub page][2]{:target="_blank"}
-- [Kali Linux Metapackages list][3]{:target="_blank"}
-- [Kali Linux Documentation][5]{:target="_blank"}
-- [Kali Linux Package list][6]{:target="_blank"}
-- [Kali Linux Gitlab][4]{:target="_blank"}
+- [Kali Linux Website][1]
+- [Kali Linux Docker Hub page][2]
+- [Kali Linux Metapackages list][3]
+- [Kali Linux Documentation][5]
+- [Kali Linux Package list][6]
+- [Kali Linux Gitlab][4]
 
 [1]: https://www.kali.org
 [2]: https://hub.docker.com/u/kalilinux
