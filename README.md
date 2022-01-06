@@ -36,7 +36,6 @@ kali-test                        latest         7634f71c1c2f   2 minutes ago   2
 
 You can run it with : 
 ```bash
-```bash
 docker run -it kali-test bash
 ┌──(root💀ce74266505e6)-[/]
 └─> 
